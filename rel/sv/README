@@ -1,1 +1,0 @@
-This is an example of a BigCouch runit (http://smarden.org/runit/) service. Use it to start/stop/restart BigCouch. You may need to adjust the "run" script for install location and the home directory BigCouch will run as.
