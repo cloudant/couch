@@ -8,24 +8,10 @@
 erl_crash.dump
 
 # building
-apps/*/ebin/
-rel/dbcore
-rel/bigcouch.config
-rel/overlay.config
-install.mk
-
-# scons building
-couchjs/.sconf_temp/
-couchjs/.sconsign.dblite
-couchjs/build/
-couchjs/config.log
-*.pyc
+deps/
+ebin/
 
 # testing
 .eunit
 @abs_top_builddir@/
-apps/couch/test/temp*
-
-# dev
-rel/dev*
-rel/tmpdata
+test/temp*
