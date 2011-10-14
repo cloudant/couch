@@ -25,4 +25,4 @@ clean:
 # compile is required here because of cross-dependencies between apps
 check: compile
 	@./rebar eunit
-	@ERL_FLAGS="-pa `pwd`/ebin" prove test/etap/*.t
+	@ERL_LIBS=`pwd` ERL_FLAGS="-pa `pwd`/test/etap" prove test/etap/*.t
